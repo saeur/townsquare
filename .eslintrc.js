@@ -12,5 +12,11 @@ module.exports = {
     "no-debugger": process.env.NODE_ENV === "production" ? "warn" : "off",
     "vue/multi-word-component-names": "off",
     "vue/no-reserved-component-names": "off",
+    prettier/prettier': [
+      'error',  // alternativly change to 'warn' if you want only warning 
+      {
+          endOfLine: 'auto',
+      },
+    ],
   }
 };
